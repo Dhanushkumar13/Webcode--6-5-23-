@@ -1,0 +1,58 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0d0e0f;
+  }
+  
+  body,
+  input,
+  textarea,
+  select,
+  button {
+    color: white;
+    font: 400 1rem "Roboto", sans-serif;
+  }
+
+  h1{
+    color: #2E69B2;
+  }
+  
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    color: #FFCC00;
+  }
+  
+
+.pokemonBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.Pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.Page-item{
+    display: flex;
+    margin: 10px;
+}
+
+.abilities,.Moves,.weight{
+    display: flex;
+    padding-top: 10px;
+}
