@@ -1,22 +1,3 @@
-// // const body = document.body
-
-// // const div = document.createElement('div')
-// // div.innerText = "Charizard"
-// // div.style.color = 'blue'
-// // body.append(div)
-
-// const body = document.body
-
-// const div = document.createElement('div')
-// const a = document.createElement('div')
-// div.className = "pokemon-Name"
-// a.className = "pokemon-Weight"
-// body.append(div)
-// body.append(a)
-
-// // const a = document.createElement('div')
-// // a.className = "pokemon-Weight"
-// // body.append(a)
 
 
 async function getsteelix(){
@@ -552,12 +533,12 @@ async function getrayquaza(){
         .then((response)=> response.json())
         .then((data)=>{
             document.querySelector(".rayquaza").innerHTML=`
-            <div>
+            <div >
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png" alt="rayquaza" >
         </div>
         <div class="pokemon-description">
             <h1>
-                Kyogre
+                Rayquaza
             </h1>   
             <p class="Abilities">
                 Abilities: ${data.abilities.map(ability=> ability.ability.name)}
@@ -1292,7 +1273,7 @@ async function getsylveon(){
         </div>
         <div class="pokemon-description">
             <h1>
-                sylveon
+                Sylveon
             </h1>   
             <p class="Abilities">
                 Abilities: ${data.abilities.map(ability=> ability.ability.name)}

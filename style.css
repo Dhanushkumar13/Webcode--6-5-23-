@@ -14,17 +14,26 @@
     font: 400 1rem "Roboto", sans-serif;
   }
 
+  .pokeball{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+  }
+
   h1{
     color: #2E69B2;
   }
   
  header{
     display: flex;
+    height: 200px;
     align-items: center;
     justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 32px;
-    color: #FFCC00;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: 640px;
+    background-size: 500px;
   }
   
 
@@ -52,7 +61,8 @@
     margin: 10px;
 }
 
-.abilities,.Moves,.weight{
+.Abilities,.Moves,.weight{
     display: flex;
     padding-top: 10px;
+    text-transform: capitalize;
 }
